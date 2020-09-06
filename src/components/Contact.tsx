@@ -60,16 +60,15 @@ const Contact = ({
       <Inner
         sx={{
           h1: { color: "white !important", fontSize: "3rem" },
-          blockquote: { fontSize: "1.5rem", fontWeight: "bold" },
-          p: { fontSize: "1.5rem" },
+          p: { fontSize: "3vh" },
         }}
       >
-        <h1 id="get-in-touch">Get in touch</h1>
+        <h1>Get in touch</h1>
         <p>
           Say <a href="tel:+359887635043">Hi</a> or find me on other platforms:
-          <a href="https://facebook.com/valeri.mladenovv">Facebook</a> &amp;
-          <a href="https://www.instagram.com/valeri.ml/">Instagram</a> or
-          <a href="mailto:work@valeri.ml">Mail</a>
+          <a href="https://facebook.com/valeri.mladenovv"> Facebook</a> &amp;
+          <a href="https://www.instagram.com/valeri.ml/"> Instagram</a> or
+          <a href="mailto:work@valeri.ml"> Mail</a>
         </p>
       </Inner>
       <Footer />

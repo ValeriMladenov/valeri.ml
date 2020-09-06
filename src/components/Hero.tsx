@@ -147,7 +147,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       factor={factor}
     >
       <Inner>
-        <h1 sx={{ fontSize: `4.6rem`, color: `white !important` }}>
+        <h1 sx={{ fontSize: `10vh`, color: `white !important` }}>
           Hello, I&#39;m Valeri Mladenov.
         </h1>
         <p>

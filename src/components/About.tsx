@@ -107,8 +107,7 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <Inner
         sx={{
           h1: { color: "white !important", fontSize: "3rem" },
-          blockquote: { fontSize: "1.5rem", fontWeight: "bold" },
-          p: { fontSize: "1.5rem" },
+          p: { fontSize: "3vh" },
         }}
       >
         <h1>About</h1>

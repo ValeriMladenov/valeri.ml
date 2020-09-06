@@ -28,7 +28,11 @@ const Projects = ({
             display: `grid`,
             gridGap: [4, 4, 4, 5],
             gridTemplateColumns: [`1fr`, `1fr`, `repeat(2, 1fr)`],
-            h1: { gridColumn: `-1/1`, color: `white !important`, fontSize: 8 },
+            h1: {
+              gridColumn: `-1/1`,
+              color: `white !important`,
+              fontSize: "10vh",
+            },
           }}
         >
           <h1>Projects</h1>
